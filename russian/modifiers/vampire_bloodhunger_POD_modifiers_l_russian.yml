@@ -1,13 +1,13 @@
 ﻿l_russian:
- bloodhunger0_modifier:0 "Blood Hunger 0: Satiated"
- bloodhunger1_modifier:0 "Blood Hunger 1: Hungry"
- bloodhunger2_modifier:0 "Blood Hunger 2: Ravenous"
- bloodhunger3_modifier:0 "Blood Hunger 3: Famished"
- bloodhunger4_modifier:0 "Blood Hunger 4: Starving"
- bloodhunger5_modifier:0 "Blood Hunger 5: Frenzied"
+ bloodhunger0_modifier:0 "Кровавый Голод 0: Сыт"
+ bloodhunger1_modifier:0 "Кровавый Голод 1: Не против перекусить"
+ bloodhunger2_modifier:0 "Кровавый Голод 2: Проголодался"
+ bloodhunger3_modifier:0 "Кровавый Голод 3: Крайне голоден"
+ bloodhunger4_modifier:0 "Кровавый Голод 4: Умирает с голода"
+ bloodhunger5_modifier:0 "Кровавый Голод 5: Безумно голоден"
  
- slightbloodloss_modifier:0 "Slight Blood Loss"
- smallbloodloss_modifier:0 "Small Blood Loss"
- majorbloodloss_modifier:0 "Major Blood Loss"
+ slightbloodloss_modifier:0 "Незначительная потеря крови"
+ smallbloodloss_modifier:0 "Маленькая потеря крови"
+ majorbloodloss_modifier:0 "Большая потеря крови"
  
 

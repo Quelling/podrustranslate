@@ -1,7 +1,7 @@
 ﻿l_russian:
  #Choleric: Potence
  lethal_body_perk_name:0 "Lethal Body"
- soaring_leap_perk_name:0 "Soaring Leap"
+ soaring_leap_perk_name:0 "Парящий скачок"
  prowess_perk_name:0 "Prowess"
  brutal_feed_perk_name:0 "Brutal Feed"
  spark_of_rage_perk_name:0 "Spark of Rage"
@@ -10,7 +10,7 @@
  earthshock_perk_name:0 "Earthshock"
  fist_of_caine_perk_name:0 "Fist of Caine"
  potenceadvanced_perk_name:0 "Advanced Potence"
- 
+
  #Choleric: Celerity
  cats_grace_perk_name:0 "Cats Grace"
  rapid_reflexes_perk_name:0 "Rapid Reflexes"
@@ -22,7 +22,7 @@
  lightning_strike_perk_name:0 "Lightning Strike"
  split_second_perk_name:0 "Split Second"
  celerityadvanced_perk_name:0 "Advanced Celerity"
- 
+
  #Choleric: Vicissitude
  malleable_visage_perk_name:0 "Malleable Visage"
  transmogrify_the_mortal_clay_perk_name:0 "Transmogrify the Mortal Clay"
@@ -32,7 +32,7 @@
  bloodform_perk_name:0 "Bloodform"
  the_body_impolitic_perk_name:0 "The Body Impolitic"
  vicissitudeadvanced_perk_name:0 "Advanced Vicissitude"
- 
+
  #Melancholy: Fortitude
  resilence_perk_name:0 "Resilience"
  unswayable_mind_perk_name:0 "Unswayable Mind"
@@ -45,7 +45,7 @@
  flesh_of_marble_perk_name:0 "Flesh of Marble"
  prowess_from_pain_perk_name:0 "Prowess from Pain"
  fortitudeadvanced_perk_name:0 "Advanced Fortitude"
- 
+
  #Melancholicy: Obfuscate
  cloak_of_shadows_perk_name:0 "Cloak of Shadows"
  silence_of_death_perk_name:0 "Silence of Death"
@@ -58,7 +58,7 @@
  impostors_guise_perk_name:0 "Imposter's Guise"
  oubliette_perk_name:0 "Oubliette"
  obfuscateadvanced_perk_name:0 "Advanced Obfuscate"
- 
+
  #Melancholy: Oblivion
  shadow_cloak_perk_name:0 "Shadow Cloak"
  oblivions_sight_perk_name:0 "Oblivion's Sight"
@@ -69,9 +69,9 @@
  touch_of_oblivion_perk_name:0 "Touch of Oblivion"
  stygian_shroud_perk_name:0 "Stygian Shroud"
  shadow_step_perk_name:0 "Shadow Step"
- tenebrous_avatar_perk_name:0 "Tenebrous Avatar" 
+ tenebrous_avatar_perk_name:0 "Tenebrous Avatar"
  oblivionadvanced_perk_name:0 "Advanced Oblivion"
- 
+
  #Phlegmatic: Auspex
  heightened_senses_perk_name:0 "Heightened Senses"
  sense_the_unseen_perk_name:0 "Sense the Unseen"
@@ -83,7 +83,7 @@
  possession_perk_name:0 "Possession"
  telepathy_perk_name:0 "Telepathy"
  auspexadvanced_perk_name:0 "Advanced Auspex"
- 
+
  #Phlegmatic: Dominate
  cloud_memory_perk_name:0 "Cloud Memory"
  compel_perk_name:0 "Compel"
@@ -96,7 +96,7 @@
  mass_manipulation_perk_name:0 "Mass Maninpulation"
  terminal_decree_perk_name:0 "Terminal Decree"
  dominateadvanced_perk_name:0 "Advanced Dominate"
- 
+
  #Sanguine: Blood Sorcery
  corrosive_vitae_perk_name:0 "Corrosive Vitae"
  a_taste_of_blood_perk_name:0 "A Taste of Blood"
@@ -107,7 +107,7 @@
  baals_curse_perk_name:0 "Baal's Curse"
  cauldron_of_blood_perk_name:0 "Cauldron of Blood"
  bloodsorceryadvanced_perk_name:0 "Advanced Blood Sorcery"
- 
+
  #Sanguine: Presence
  awe_perk_name:0 "Awe"
  daunt_perk_name:0 "Daunt"
@@ -119,7 +119,7 @@
  summon_perk_name:0 "Summon"
  majesty_perk_name:0 "Majesty"
  presenceadvanced_perk_name:0 "Advanced Presence"
- 
+
  #Animal: Animalism
  bond_famulus_perk_name:0 "Bond Famulus"
  sense_the_beast_perk_name:0 "Sense The Beast"
@@ -131,7 +131,7 @@
  animal_dominion_perk_name:0 "Animal Dominion"
  drawing_out_the_beast_perk_name:0 "Drawing Out The Beast"
  animalismadvanced_perk_name:0 "Advanced Animalism"
- 
+
  #Animal: Protean
  eyes_of_the_beast_perk_name:0 "Eyes of The Beast"
  weight_of_the_feather_perk_name:0 "Weight of The Feather"
@@ -142,10 +142,9 @@
  mist_form_perk_name:0 "Mist Form"
  the_unfettered_heart_perk_name:0 "Unfettered Heart"
  proteanadvanced_perk_name:0 "Advanced Protean"
- 
+
  # Szlachta Modifiers #
  #szlachta_toughness_mult:0 "Szlachta Toughness"
  #szlachta_pursuit_add:0 "Szlachta Pursuit"
  #szlachta_damage_mult:0 "Szlachta Damage"
  #szlachta_screen_add:0 "Szlachta Screen"
-
