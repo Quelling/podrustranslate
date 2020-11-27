@@ -1,89 +1,108 @@
-﻿l_russian:
+﻿l_english:
 
- GAINS_CHOLERIC_LIFESTYLE_XP:1 "Приобретает $VALUE|V0$ [choleric_lifestyle|E] опыт"
- GAINED_CHOLERIC_LIFESTYLE_XP:1 "Приобрел $VALUE|V0$ [choleric_lifestyle|E] опыт"
- I_GAIN_CHOLERIC_LIFESTYLE_XP:1 "Вы получаете $VALUE|V0$ [choleric_lifestyle|E] опыт"
- I_GAINED_CHOLERIC_LIFESTYLE_XP:1 "Вы приобретаете $VALUE|V0$ [choleric_lifestyle|E] опыт"
- TARGET_GAINS_CHOLERIC_LIFESTYLE_XP:1 "[CHARACTER.GetShortUIName] приобретает $VALUE|V0$ [choleric_lifestyle|E] опыт"
- TARGET_GAINED_CHOLERIC_LIFESTYLE_XP:1 "[CHARACTER.GetShortUIName] приобрел $VALUE|V0$ [choleric_lifestyle|E] опыт"
+ GAINS_CHOLERIC_LIFESTYLE_XP:1 "Gains $VALUE|V0$ [choleric_lifestyle|E] Experience"
+ GAINED_CHOLERIC_LIFESTYLE_XP:1 "Gained $VALUE|V0$ [choleric_lifestyle|E] Experience"
+ I_GAIN_CHOLERIC_LIFESTYLE_XP:1 "You gain $VALUE|V0$ [choleric_lifestyle|E] Experience"
+ I_GAINED_CHOLERIC_LIFESTYLE_XP:1 "You gained $VALUE|V0$ [choleric_lifestyle|E] Experience"
+ TARGET_GAINS_CHOLERIC_LIFESTYLE_XP:1 "[CHARACTER.GetShortUIName] gains $VALUE|V0$ [choleric_lifestyle|E] Experience"
+ TARGET_GAINED_CHOLERIC_LIFESTYLE_XP:1 "[CHARACTER.GetShortUIName] gained $VALUE|V0$ [choleric_lifestyle|E] Experience"
 
- GAINS_A_CHOLERIC_LIFESTYLE_PERKPOINT:1 "Приобретает $VALUE|V0$ [choleric_lifestyle|E] [perk|E]"
- GAINED_A_CHOLERIC_LIFESTYLE_PERKPOINT:1 "Приобрел $VALUE|V0$ [choleric_lifestyle|E] [perk|E]"
- I_GAIN_A_CHOLERIC_LIFESTYLE_PERKPOINT:1 "Вы получаете $VALUE|V0$ [choleric_lifestyle|E] [perk|E]"
- I_GAINED_A_CHOLERIC_LIFESTYLE_PERKPOINT:1 "Вы приобретаете $VALUE|V0$ [choleric_lifestyle|E] [perk|E]"
- TARGET_GAINS_A_CHOLERIC_LIFESTYLE_PERKPOINT:1 "[CHARACTER.GetShortUIName] приобретает $VALUE|V0$ [choleric_lifestyle|E] [perk|E]"
- TARGET_GAINED_A_CHOLERIC_LIFESTYLE_PERKPOINT:1 "[CHARACTER.GetShortUIName] приобрел $VALUE|V0$ [choleric_lifestyle|E] [perk|E]"
+ GAINS_A_CHOLERIC_LIFESTYLE_PERKPOINT:1 "Gains $VALUE|V0$ [choleric_lifestyle|E] [perk|E] Unlock"
+ GAINED_A_CHOLERIC_LIFESTYLE_PERKPOINT:1 "Gained $VALUE|V0$ [choleric_lifestyle|E] [perk|E] Unlock"
+ I_GAIN_A_CHOLERIC_LIFESTYLE_PERKPOINT:1 "You gain $VALUE|V0$ [choleric_lifestyle|E] [perk|E] Unlock"
+ I_GAINED_A_CHOLERIC_LIFESTYLE_PERKPOINT:1 "You gained $VALUE|V0$ [choleric_lifestyle|E] [perk|E] Unlock"
+ TARGET_GAINS_A_CHOLERIC_LIFESTYLE_PERKPOINT:1 "[CHARACTER.GetShortUIName] gains $VALUE|V0$ [choleric_lifestyle|E] [perk|E] Unlock"
+ TARGET_GAINED_A_CHOLERIC_LIFESTYLE_PERKPOINT:1 "[CHARACTER.GetShortUIName] gained $VALUE|V0$ [choleric_lifestyle|E] [perk|E] Unlock"
  
- GAINS_MELANCHOLY_LIFESTYLE_XP:1 "Приобретает $VALUE|V0$ [melancholy_lifestyle|E] опыт"
- GAINED_MELANCHOLY_LIFESTYLE_XP:1 "Приобрел $VALUE|V0$ [melancholy_lifestyle|E] опыт"
- I_GAIN_MELANCHOLY_LIFESTYLE_XP:1 "Вы получаете $VALUE|V0$ [melancholy_lifestyle|E] опыт"
- I_GAINED_MELANCHOLY_LIFESTYLE_XP:1 "Вы приобретаете $VALUE|V0$ [melancholy_lifestyle|E] опыт"
- TARGET_GAINS_MELANCHOLY_LIFESTYLE_XP:1 "[CHARACTER.GetShortUIName] приобретает $VALUE|V0$ [melancholy_lifestyle|E] опыт"
- TARGET_GAINED_MELANCHOLY_LIFESTYLE_XP:1 "[CHARACTER.GetShortUIName] приобрел $VALUE|V0$ [melancholy_lifestyle|E] опыт"
+ GAINS_MELANCHOLY_LIFESTYLE_XP:1 "Gains $VALUE|V0$ [melancholy_lifestyle|E] Experience"
+ GAINED_MELANCHOLY_LIFESTYLE_XP:1 "Gained $VALUE|V0$ [melancholy_lifestyle|E] Experience"
+ I_GAIN_MELANCHOLY_LIFESTYLE_XP:1 "You gain $VALUE|V0$ [melancholy_lifestyle|E] Experience"
+ I_GAINED_MELANCHOLY_LIFESTYLE_XP:1 "You gained $VALUE|V0$ [melancholy_lifestyle|E] Experience"
+ TARGET_GAINS_MELANCHOLY_LIFESTYLE_XP:1 "[CHARACTER.GetShortUIName] gains $VALUE|V0$ [melancholy_lifestyle|E] Experience"
+ TARGET_GAINED_MELANCHOLY_LIFESTYLE_XP:1 "[CHARACTER.GetShortUIName] gained $VALUE|V0$ [melancholy_lifestyle|E] Experience"
 
- GAINS_A_MELANCHOLY_LIFESTYLE_PERKPOINT:1 "Приобретает $VALUE|V0$ [melancholy_lifestyle|E] [perk|E]"
- GAINED_A_MELANCHOLY_LIFESTYLE_PERKPOINT:1 "Приобрел $VALUE|V0$ [melancholy_lifestyle|E] [perk|E]"
- I_GAIN_A_MELANCHOLY_LIFESTYLE_PERKPOINT:1 "Вы получаете $VALUE|V0$ [melancholy_lifestyle|E] [perk|E]"
- I_GAINED_A_MELANCHOLY_LIFESTYLE_PERKPOINT:1 "Вы приобретаете $VALUE|V0$ [melancholy_lifestyle|E] [perk|E]"
- TARGET_GAINS_A_MELANCHOLY_LIFESTYLE_PERKPOINT:1 "[CHARACTER.GetShortUIName] приобретает $VALUE|V0$ [melancholy_lifestyle|E] [perk|E]"
- TARGET_GAINED_A_MELANCHOLY_LIFESTYLE_PERKPOINT:1 "[CHARACTER.GetShortUIName] приобрел $VALUE|V0$ [melancholy_lifestyle|E] [perk|E]" 
+ GAINS_A_MELANCHOLY_LIFESTYLE_PERKPOINT:1 "Gains $VALUE|V0$ [melancholy_lifestyle|E] [perk|E] Unlock"
+ GAINED_A_MELANCHOLY_LIFESTYLE_PERKPOINT:1 "Gained $VALUE|V0$ [melancholy_lifestyle|E] [perk|E] Unlock"
+ I_GAIN_A_MELANCHOLY_LIFESTYLE_PERKPOINT:1 "You gain $VALUE|V0$ [melancholy_lifestyle|E] [perk|E] Unlock"
+ I_GAINED_A_MELANCHOLY_LIFESTYLE_PERKPOINT:1 "You gained $VALUE|V0$ [melancholy_lifestyle|E] [perk|E] Unlock"
+ TARGET_GAINS_A_MELANCHOLY_LIFESTYLE_PERKPOINT:1 "[CHARACTER.GetShortUIName] gains $VALUE|V0$ [melancholy_lifestyle|E] [perk|E] Unlock"
+ TARGET_GAINED_A_MELANCHOLY_LIFESTYLE_PERKPOINT:1 "[CHARACTER.GetShortUIName] gained $VALUE|V0$ [melancholy_lifestyle|E] [perk|E] Unlock" 
  
- GAINS_PHLEGMATIC_LIFESTYLE_XP:1 "Приобретает $VALUE|V0$ [phlegmatic_lifestyle|E] опыт"
- GAINED_PHLEGMATIC_LIFESTYLE_XP:1 "Приобрел $VALUE|V0$ [phlegmatic_lifestyle|E] опыт"
- I_GAIN_PHLEGMATIC_LIFESTYLE_XP:1 "Вы получаете $VALUE|V0$ [phlegmatic_lifestyle|E] опыт"
- I_GAINED_PHLEGMATIC_LIFESTYLE_XP:1 "Вы приобретаете $VALUE|V0$ [phlegmatic_lifestyle|E] опыт"
- TARGET_GAINS_PHLEGMATIC_LIFESTYLE_XP:1 "[CHARACTER.GetShortUIName] приобретает $VALUE|V0$ [phlegmatic_lifestyle|E] опыт"
- TARGET_GAINED_PHLEGMATIC_LIFESTYLE_XP:1 "[CHARACTER.GetShortUIName] приобрел $VALUE|V0$ [phlegmatic_lifestyle|E] опыт"
+ GAINS_PHLEGMATIC_LIFESTYLE_XP:1 "Gains $VALUE|V0$ Phlegmatic Experience"
+ GAINED_PHLEGMATIC_LIFESTYLE_XP:1 "Gained $VALUE|V0$ Phlegmatic Experience"
+ I_GAIN_PHLEGMATIC_LIFESTYLE_XP:1 "You gain $VALUE|V0$ Phlegmatic Experience"
+ I_GAINED_PHLEGMATIC_LIFESTYLE_XP:1 "You gained $VALUE|V0$ Phlegmatic Experience"
+ TARGET_GAINS_PHLEGMATIC_LIFESTYLE_XP:1 "[CHARACTER.GetShortUIName] gains $VALUE|V0$ Phlegmatic Experience"
+ TARGET_GAINED_PHLEGMATIC_LIFESTYLE_XP:1 "[CHARACTER.GetShortUIName] gained $VALUE|V0$ Phlegmatic Experience"
 
- GAINS_A_PHLEGMATIC_LIFESTYLE_PERKPOINT:1 "Приобретает $VALUE|V0$ [phlegmatic_lifestyle|E] [perk|E]"
- GAINED_A_PHLEGMATIC_LIFESTYLE_PERKPOINT:1 "Приобрел $VALUE|V0$ [phlegmatic_lifestyle|E] [perk|E]"
- I_GAIN_A_PHLEGMATIC_LIFESTYLE_PERKPOINT:1 "Вы получаете $VALUE|V0$ [phlegmatic_lifestyle|E] [perk|E]"
- I_GAINED_A_PHLEGMATIC_LIFESTYLE_PERKPOINT:1 "Вы приобретаете $VALUE|V0$ [phlegmatic_lifestyle|E] [perk|E]"
- TARGET_GAINS_A_PHLEGMATIC_LIFESTYLE_PERKPOINT:1 "[CHARACTER.GetShortUIName] приобретает $VALUE|V0$ [phlegmatic_lifestyle|E] [perk|E]"
- TARGET_GAINED_A_PHLEGMATIC_LIFESTYLE_PERKPOINT:1 "[CHARACTER.GetShortUIName] приобрел $VALUE|V0$ [phlegmatic_lifestyle|E] [perk|E]"
+ GAINS_A_PHLEGMATIC_LIFESTYLE_PERKPOINT:1 "Gains $VALUE|V0$ [phlegmatic_lifestyle|E] [perk|E] Unlock"
+ GAINED_A_PHLEGMATIC_LIFESTYLE_PERKPOINT:1 "Gained $VALUE|V0$ [phlegmatic_lifestyle|E] [perk|E] Unlock"
+ I_GAIN_A_PHLEGMATIC_LIFESTYLE_PERKPOINT:1 "You gain $VALUE|V0$ [phlegmatic_lifestyle|E] [perk|E] Unlock"
+ I_GAINED_A_PHLEGMATIC_LIFESTYLE_PERKPOINT:1 "You gained $VALUE|V0$ [phlegmatic_lifestyle|E] [perk|E] Unlock"
+ TARGET_GAINS_A_PHLEGMATIC_LIFESTYLE_PERKPOINT:1 "[CHARACTER.GetShortUIName] gains $VALUE|V0$ [phlegmatic_lifestyle|E] [perk|E] Unlock"
+ TARGET_GAINED_A_PHLEGMATIC_LIFESTYLE_PERKPOINT:1 "[CHARACTER.GetShortUIName] gained $VALUE|V0$ [phlegmatic_lifestyle|E] [perk|E] Unlock"
  
- GAINS_SANGUINE_LIFESTYLE_XP:1 "Приобретает $VALUE|V0$ [sanguine_lifestyle|E] опыт"
- GAINED_SANGUINE_LIFESTYLE_XP:1 "Приобрел $VALUE|V0$ [sanguine_lifestyle|E] опыт"
- I_GAIN_SANGUINE_LIFESTYLE_XP:1 "Вы получаете $VALUE|V0$ [sanguine_lifestyle|E] опыт"
- I_GAINED_SANGUINE_LIFESTYLE_XP:1 "Вы приобретаете $VALUE|V0$ [sanguine_lifestyle|E] опыт"
- TARGET_GAINS_SANGUINE_LIFESTYLE_XP:1 "[CHARACTER.GetShortUIName] приобретает $VALUE|V0$ [sanguine_lifestyle|E] опыт"
- TARGET_GAINED_SANGUINE_LIFESTYLE_XP:1 "[CHARACTER.GetShortUIName] приобрел $VALUE|V0$ [sanguine_lifestyle|E] опыт"
+ GAINS_SANGUINE_LIFESTYLE_XP:1 "Gains $VALUE|V0$ [sanguine_lifestyle|E] Experience"
+ GAINED_SANGUINE_LIFESTYLE_XP:1 "Gained $VALUE|V0$ [sanguine_lifestyle|E] Experience"
+ I_GAIN_SANGUINE_LIFESTYLE_XP:1 "You gain $VALUE|V0$ [sanguine_lifestyle|E] Experience"
+ I_GAINED_SANGUINE_LIFESTYLE_XP:1 "You gained $VALUE|V0$ [sanguine_lifestyle|E] Experience"
+ TARGET_GAINS_SANGUINE_LIFESTYLE_XP:1 "[CHARACTER.GetShortUIName] gains $VALUE|V0$ [sanguine_lifestyle|E] Experience"
+ TARGET_GAINED_SANGUINE_LIFESTYLE_XP:1 "[CHARACTER.GetShortUIName] gained $VALUE|V0$ [sanguine_lifestyle|E] Experience"
 
- GAINS_A_SANGUINE_LIFESTYLE_PERKPOINT:1 "Приобретает $VALUE|V0$ [sanguine_lifestyle|E] [perk|E]"
- GAINED_A_SANGUINE_LIFESTYLE_PERKPOINT:1 "Приобрел $VALUE|V0$ [sanguine_lifestyle|E] [perk|E]"
- I_GAIN_A_SANGUINE_LIFESTYLE_PERKPOINT:1 "Вы получаете $VALUE|V0$ [sanguine_lifestyle|E] [perk|E]"
- I_GAINED_A_SANGUINE_LIFESTYLE_PERKPOINT:1 "Вы приобретаете $VALUE|V0$ [sanguine_lifestyle|E] [perk|E]"
- TARGET_GAINS_A_SANGUINE_LIFESTYLE_PERKPOINT:1 "[CHARACTER.GetShortUIName] приобретает $VALUE|V0$ [sanguine_lifestyle|E] [perk|E]"
- TARGET_GAINED_A_SANGUINE_LIFESTYLE_PERKPOINT:1 "[CHARACTER.GetShortUIName] приобрел $VALUE|V0$ [sanguine_lifestyle|E] [perk|E]"
+ GAINS_A_SANGUINE_LIFESTYLE_PERKPOINT:1 "Gains $VALUE|V0$ [sanguine_lifestyle|E] [perk|E] Unlock"
+ GAINED_A_SANGUINE_LIFESTYLE_PERKPOINT:1 "Gained $VALUE|V0$ [sanguine_lifestyle|E] [perk|E] Unlock"
+ I_GAIN_A_SANGUINE_LIFESTYLE_PERKPOINT:1 "You gain $VALUE|V0$ [sanguine_lifestyle|E] [perk|E] Unlock"
+ I_GAINED_A_SANGUINE_LIFESTYLE_PERKPOINT:1 "You gained $VALUE|V0$ [sanguine_lifestyle|E] [perk|E] Unlock"
+ TARGET_GAINS_A_SANGUINE_LIFESTYLE_PERKPOINT:1 "[CHARACTER.GetShortUIName] gains $VALUE|V0$ [sanguine_lifestyle|E] [perk|E] Unlock"
+ TARGET_GAINED_A_SANGUINE_LIFESTYLE_PERKPOINT:1 "[CHARACTER.GetShortUIName] gained $VALUE|V0$ [sanguine_lifestyle|E] [perk|E] Unlock"
  
- GAINS_ANIMAL_LIFESTYLE_XP:1 "Приобретает $VALUE|V0$ [animal_lifestyle|E] опыт"
- GAINED_ANIMAL_LIFESTYLE_XP:1 "Приобрел $VALUE|V0$ [animal_lifestyle|E] опыт"
- I_GAIN_ANIMAL_LIFESTYLE_XP:1 "Вы получаете $VALUE|V0$ [animal_lifestyle|E] опыт"
- I_GAINED_ANIMAL_LIFESTYLE_XP:1 "Вы приобретаете $VALUE|V0$ [animal_lifestyle|E] опыт"
- TARGET_GAINS_ANIMAL_LIFESTYLE_XP:1 "[CHARACTER.GetShortUIName] приобретает $VALUE|V0$ [animal_lifestyle|E] опыт"
- TARGET_GAINED_ANIMAL_LIFESTYLE_XP:1 "[CHARACTER.GetShortUIName] приобрел $VALUE|V0$ [animal_lifestyle|E] опыт"
+ GAINS_ANIMAL_LIFESTYLE_XP:1 "Gains $VALUE|V0$ [animal_lifestyle|E] Experience"
+ GAINED_ANIMAL_LIFESTYLE_XP:1 "Gained $VALUE|V0$ [animal_lifestyle|E] Experience"
+ I_GAIN_ANIMAL_LIFESTYLE_XP:1 "You gain $VALUE|V0$ [animal_lifestyle|E] Experience"
+ I_GAINED_ANIMAL_LIFESTYLE_XP:1 "You gained $VALUE|V0$ [animal_lifestyle|E] Experience"
+ TARGET_GAINS_ANIMAL_LIFESTYLE_XP:1 "[CHARACTER.GetShortUIName] gains $VALUE|V0$ [animal_lifestyle|E] Experience"
+ TARGET_GAINED_ANIMAL_LIFESTYLE_XP:1 "[CHARACTER.GetShortUIName] gained $VALUE|V0$ [animal_lifestyle|E] Experience"
 
- GAINS_ANIMAL_LIFESTYLE_PERKPOINT:1 "Приобретает $VALUE|V0$ [animal_lifestyle|E] [perk|E]"
- GAINED_ANIMAL_LIFESTYLE_PERKPOINT:1 "Приобрел $VALUE|V0$ [animal_lifestyle|E] [perk|E]"
- I_GAIN_ANIMAL_LIFESTYLE_PERKPOINT:1 "Вы получаете $VALUE|V0$ [animal_lifestyle|E] [perk|E]"
- I_GAINED_ANIMAL_LIFESTYLE_PERKPOINT:1 "Вы приобретаете $VALUE|V0$ [animal_lifestyle|E] [perk|E]"
- TARGET_GAINS_ANIMAL_LIFESTYLE_PERKPOINT:1 "[CHARACTER.GetShortUIName] приобретает $VALUE|V0$ [animal_lifestyle|E] [perk|E]"
- TARGET_GAINED_ANIMAL_LIFESTYLE_PERKPOINT:1 "[CHARACTER.GetShortUIName] приобрел $VALUE|V0$ [animal_lifestyle|E] [perk|E]"
+ GAINS_ANIMAL_LIFESTYLE_PERKPOINT:1 "Gains $VALUE|V0$ [animal_lifestyle|E] [perk|E] Unlock"
+ GAINED_ANIMAL_LIFESTYLE_PERKPOINT:1 "Gained $VALUE|V0$ [animal_lifestyle|E] [perk|E] Unlock"
+ I_GAIN_ANIMAL_LIFESTYLE_PERKPOINT:1 "You gain $VALUE|V0$ [animal_lifestyle|E] [perk|E] Unlock"
+ I_GAINED_ANIMAL_LIFESTYLE_PERKPOINT:1 "You gained $VALUE|V0$ [animal_lifestyle|E] [perk|E] Unlock"
+ TARGET_GAINS_ANIMAL_LIFESTYLE_PERKPOINT:1 "[CHARACTER.GetShortUIName] gains $VALUE|V0$ [animal_lifestyle|E] [perk|E] Unlock"
+ TARGET_GAINED_ANIMAL_LIFESTYLE_PERKPOINT:1 "[CHARACTER.GetShortUIName] gained $VALUE|V0$ [animal_lifestyle|E] [perk|E] Unlock"
   
- masquerade_exposure_increase_effect.tt:0 "Уровень Маскарада увеличивается."
- masquerade_exposure_decrease_effect.tt:0 "Уровень Маскарада уменьшается."
- hunger_increase_effect.tt:0 "Голод усилился."
- hunger_decrease_effect.tt:0 "Голод уменьшился."
-    
+ masquerade_exposure_increase_effect.tt:0 "Masquerade exposure will increase."
+ masquerade_exposure_decrease_effect.tt:0 "Masquerade exposure will decrease."
+ hunger_increase_effect.tt:0 "Hunger will increase."
+ hunger_decrease_effect.tt:0 "Hunger will decrease."
+ 
+ GAINS_FAITH_LIFESTYLE_XP:1 "Gains $VALUE|V0$ [faith_lifestyle|E] Experience"
+ GAINED_FAITH_LIFESTYLE_XP:1 "Gained $VALUE|V0$ [faith_lifestyle|E] Experience"
+ I_GAIN_FAITH_LIFESTYLE_XP:1 "You gain $VALUE|V0$ [faith_lifestyle|E] Experience"
+ I_GAINED_FAITH_LIFESTYLE_XP:1 "You gained $VALUE|V0$ [faith_lifestyle|E] Experience"
+ TARGET_GAINS_FAITH_LIFESTYLE_XP:1 "[CHARACTER.GetShortUIName] gains $VALUE|V0$ [faith_lifestyle|E] Experience"
+ TARGET_GAINED_FAITH_LIFESTYLE_XP:1 "[CHARACTER.GetShortUIName] gained $VALUE|V0$ [faith_lifestyle|E] Experience"
+
+ GAINS_A_FAITH_LIFESTYLE_PERKPOINT:1 "Gains $VALUE|V0$ [faith_lifestyle|E] [perk|E] Unlock"
+ GAINED_A_FAITH_LIFESTYLE_PERKPOINT:1 "Gained $VALUE|V0$ [faith_lifestyle|E] [perk|E] Unlock"
+ I_GAIN_A_FAITH_LIFESTYLE_PERKPOINT:1 "You gain $VALUE|V0$ [faith_lifestyle|E] [perk|E] Unlock"
+ I_GAINED_A_FAITH_LIFESTYLE_PERKPOINT:1 "You gained $VALUE|V0$ [faith_lifestyle|E] [perk|E] Unlock"
+ TARGET_GAINS_A_FAITH_LIFESTYLE_PERKPOINT:1 "[CHARACTER.GetShortUIName] gains $VALUE|V0$ [faith_lifestyle|E] [perk|E] Unlock"
+ TARGET_GAINED_A_FAITH_LIFESTYLE_PERKPOINT:1 "[CHARACTER.GetShortUIName] gained $VALUE|V0$ [faith_lifestyle|E] [perk|E] Unlock"
+ 
+ 
  # Animalism # 
  
- BOND_FAMULUS_PERK_EFFECT:0 "Вы можете [bind_famulus|E]."
- ANIMAL_SUCCULENCE_PERK_EFFECT:0 "[animal_succelence|E] влияет на вас."
- ANIMAL_DOMINION_PERK_EFFECT:0 "Позволяет [animal_dominion|E]." 
+ BOND_FAMULUS_PERK_EFFECT:0 "You can [bind_famulus|E]."
+ ANIMAL_SUCCULENCE_PERK_EFFECT:0 "[animal_succelence|E] affects you."
+ ANIMAL_DOMINION_PERK_EFFECT:0 "Enables [animal_dominion|E]." 
+
+ # Auspex # 
+ 
+ TELEPATHY_PERK_EFFECT:0 "You can use the Telepathy character interaction."
 
  # Blood Sorcery #
 
- INCORPOREAL_FORM_PERK_EFFECT:0 "Позволяет использовать [incorporeal_form|E]."
+ INCORPOREAL_FORM_PERK_EFFECT:0 "Enables the use of [incorporeal_form|E]."
 
  # Celerity # 
 
@@ -91,7 +110,7 @@
 
  # Dominate # 
 
- RATIONALIZE_PERK_EFFECT:0 "Позволяет [rationalize_scheme|E]."
+ RATIONALIZE_PERK_EFFECT:0 "Enables the [rationalize_scheme|E]."
 
  # Fortitude # 
 
@@ -99,7 +118,7 @@
 
  # Oblivion # 
 
- TENEBROUS_AVATAR_PERK_EFFECT:0 "Позволяет использовать [tenebrous_avatar|E]."
+ TENEBROUS_AVATAR_PERK_EFFECT:0 "Enables the use of [tenebrous_avatar|E]."
 
  # Potence # 
 
@@ -107,20 +126,29 @@
 
  # Presence # 
 
- ENTRANCEMENT_PERK_EFFECT:0 "Позволяет [entrance_scheme|E]."
- SUMMON_PERK_EFFECT:0 "Позволет [summon_scheme|E]."
+ ENTRANCEMENT_PERK_EFFECT:0 "Enables the [entrance_scheme|E]."
+ SUMMON_PERK_EFFECT:0 "Enables the [summon_scheme|E]."
 
  # Protean #
 
- FERAL_WEAPONS_PERK_EFFECT:0 "Позволяет использовать [feral_weapons|E]."
- SHAPECHANGE_PERK_EFFECT:0 "Позволяет использовать [shapechange|E]."
- METAMORPHOSIS_PERK_EFFECT:0 "Улучшает использование [shapechange|E]."
- MIST_FORM_PERK_EFFECT:0 "Позволяет использовать [mist_form|E]."
+ FERAL_WEAPONS_PERK_EFFECT:0 "Enables the use of [feral_weapons|E]."
+ SHAPECHANGE_PERK_EFFECT:0 "Enables the use of [shapechange|E]."
+ METAMORPHOSIS_PERK_EFFECT:0 "Refines the use of [shapechange|E]."
+ MIST_FORM_PERK_EFFECT:0 "Enables the use of [mist_form|E]."
 
  # Vicissitude # 
 
  # DISCIPLINE # 
- NEEDS_DISCIPLINE_TEXT:0 "#N Требуется базовая черта дисциплины, чтобы купить трейты в этой ветке #"
+ NEEDS_DISCIPLINE_TEXT:0 "#N Requires the base Discipline trait to buy perks in this tree #"
  
- ventrue_clan_bane:0 "Этот человек находится вне ваших предпочтений, и кормление от него повлечет за собой проверку силы воли."
- ventrue_clan_bane_anim:0 "Вентру не может питаться кровью животных без усилия воли."
+ ventrue_clan_bane:0 "This person is outside your feeding preference, and feeding from them will incur a willpower check."
+ ventrue_clan_bane_anim:0 "Ventrue cannot swallow the blood of animals without an exertion of will."
+ 
+ # Faith #
+ 
+ DOMINUS_VOBISCUM_PERK_EFFECT:0 "As a character interaction, you can bless another character for a temporary stat boost."
+ INTERCESSION_PERK_EFFECT:0 "As a character interaction, you can give piety to another character with a small chance of granting him the True Faith trait."
+ HOLY_BULWARK_PERK_EFFECT:0 "You are now immune to mind powers of any sort."
+ LAY_OF_HANDS_PERK_EFFECT:0 "As a character interaction, you can now heal yourself of most ailments."
+ PENANCE_PERK_EFFECT:0 "As a character interaction, you can target a vampire to curse him (a stat debuff)."
+ CONVERSION_PERK_EFFECT:0 "As a decision, you can instantly convert your realm to your religion, for a hefty piety cost."

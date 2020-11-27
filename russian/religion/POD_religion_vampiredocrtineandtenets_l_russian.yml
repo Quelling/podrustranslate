@@ -1,4 +1,4 @@
-﻿l_russian: 
+﻿l_english: 
 
 # Vampire Doctrines
 
@@ -9,6 +9,8 @@
  doctrine_vampirethemasquerade_lax_desc:0 "Enforcement of the Silence of Blood is lax. While Kindred make efforts to conceal their existence, they also sometimes make terrible mistakes that are not punished by their elders."
  doctrine_vampirethemasquerade_none_name:0 "No Masquerade"
  doctrine_vampirethemasquerade_none_desc:0 "Vampires act without regard for secrecy from the kine."
+ doctrine_vampirethemasquerade_ignorant_name:0 "Ignorant"
+ doctrine_vampirethemasquerade_ignorant_desc:0 "Vampires don't exist."
  doctrine_vampirethemasquerade_consent_name:0 "Feed Only From the Willing"
  doctrine_vampirethemasquerade_consent_desc:0 "Vampires while covert from society are large are to seek consent of their 'donors'." 
  doctrine_vampirethemasquerade_cult_name:0 "Blood Cult"
@@ -21,7 +23,8 @@
  doctrine_parameter_vampirethemasquerade_family:0 "Characters with the [trait|E]s [GetTrait('predatortype_alleycat').GetName( GetPlayer )], [GetTrait('predatortype_bedlamite').GetName( GetPlayer )], [GetTrait('predatortype_farmer').GetName( GetPlayer )], [GetTrait('predatortype_footpad').GetName( GetPlayer )] or [GetTrait('predatortype_graverobber').GetName( GetPlayer )] are shunned. Characters with the [trait|E] [GetTrait('predatortype_familias').GetName( GetPlayer )] are fully accepted"
  doctrine_parameter_vampirethemasquerade_cult:0 "Characters with the [trait|E]s [GetTrait('predatortype_consensualist').GetName( GetPlayer )] or [GetTrait('predatortype_familias').GetName( GetPlayer )] are shunned.  Character with the [GetTrait('predatortype_cultist').GetName( GetPlayer )] [trait|E] are accepted." 
  doctrine_parameter_vampirethemasquerade_consent:0 "Characters with the [GetTrait('predatortype_alleycat').GetName( GetPlayer )] [trait|E] are [criminals|E]. Characters with the [GetTrait('predatortype_cauchemar').GetName( GetPlayer )] or [GetTrait('predatortype_extortionist').GetName( GetPlayer )] [trait|E]s are shunned. Characters with the [GetTrait('predatortype_consensualist').GetName( GetPlayer )] [trait|E] are praised. All other predator types are accepted."  
-
+ doctrine_parameter_vampirethemasquerade_none:0 "Vampires don't exist."  
+ 
 # Oaths and Oathbreaking
 
  doctrine_oathbreaking_name:0 "Oathbreaking"
@@ -31,9 +34,12 @@
  doctrine_oathbreaking_shunned_desc:0 "Those who break oaths are not to be trusted. Be wary of them."
  doctrine_oathbreaking_accepted_name:0 "Accepted"
  doctrine_oathbreaking_accepted_desc:0 "Oathbreaking is accepted. Who believes the words of the undead?"
+ doctrine_oathbreaking_ignorant_name:0 "Ignorant"
+ doctrine_oathbreaking_ignorant_desc:0 "Oathbreaking is not ackowledged as a crimnal fault."
  doctrine_parameter_oathbreaking_illegal:0 "Characters with the [GetTrait('oathbreaker').GetName( GetPlayer )] [trait|E] are [criminals|E]"
  doctrine_parameter_oathbreaking_shunned:0 "Characters with the [GetTrait('oathbreaker').GetName( GetPlayer )] [trait|E] are [shunned|E]"
  doctrine_parameter_oathbreaking_accepted:0 "Characters with the [GetTrait('oathbreaker').GetName( GetPlayer )] [trait|E] are fully accepted"
+ doctrine_parameter_oathbreaking_ignorant:0 "Characters with the [GetTrait('oathbreaker').GetName( GetPlayer )] [trait|E] are ignored."
  
  doctrine_vampirebloodoath_name:0 "Blood Oaths"
  doctrine_vampirebloodoath_crime_name:0 "Criminal"
@@ -84,7 +90,7 @@
 
  doctrine_vampirediablerie_name:0 "Diablerie"
  doctrine_vampirediablerie_crime_name:0 "Criminal"
- doctrine_vampirediablerie_crime_desc:0 "Consuming the soul of another Kindred is the worst crime among our kind.\n\nA Valediction, Forbidding Diablerie\n\nAnd the enemies of Caine were great, and fell to fighting over his trail like hounds, the scent would not abate through flood and moon, and much travail. The hunter's skill was great, as they looked for their Father, and they did see... ancient Discipline used they to find the road of Shal-ka-mense. They came at last to that secret place where Caine hid, amongst the waters, showing himself, Caine called them under, "Gentle sons, gentle daughters, Why do you disturb my slumber?" And they tried to embrace their Father with steely things and things of wood, but lightning Caine, fast-moving Caine, would not be stopped by such as them. Under the curling, blasting waters, beyond the pool of Veyd-sah-me, in the grotto of Shal-ka-mense did they gather, to embrace their sleeping Father's form. Found him sleeping? Found him wakeful, battle-ready, eyes abright, smiling at his ancient childer waging war in the waxing light. Now the stars they one by one blot their ways into lightning sky, now the fires burn hell and cinder, now the heat reveals the pyre. Too long! The hunters waited further, Too long! They did by Veyd-sah-me, tarry long enough to see the light of Dawn upon their Father's Face. And in the turning, burning Mark, they saw the Finger of God's own hate, twisting, curling, God's own Word it set apart Caine's lonely fate. And as they burned in hell-bright fires, as they saw the melted flesh, as they burned with their own Kindred, Caine blessed more funeral pyres, taking in his bloody Sacrament. Seek no the blood of thine own Elder, seek not the blood of thy Sire's Sire, seek not that made thee Kin, for thou will feel the funeral pyre, when thou dost pay for thy immortal sin."
+ doctrine_vampirediablerie_crime_desc:0 "Consuming the soul of another Kindred is the worst crime among our kind.\n\nA Valediction, Forbidding Diablerie\n\nSeek no the blood of thine own Elder, seek not the blood of thy Sire's Sire, seek not that made thee Kin, for thou will feel the funeral pyre, when thou dost pay for thy immortal sin."
  doctrine_vampirediablerie_shunned_name:0 "Shunned"
  doctrine_vampirediablerie_shunned_desc:0 "Once vampires have gained the taste for the blood of other vampires, where will they stop?"
  doctrine_vampirediablerie_accepted_name:0 "Accepted"
@@ -103,9 +109,12 @@
  doctrine_vampirefrenzy_shunned_desc:0 "All Kindred struggle against the demands of the Beast, do not give into it easily. Remember the proverbs. Ride the Beast, do not let it ride you."
  doctrine_vampirefrenzy_accepted_name:0 "Accepted"
  doctrine_vampirefrenzy_accepted_desc:0 "Ride the wave! The Beast is power when we most need it!"
+ doctrine_vampirefrenzy_ignorant_name:0 "Ignorant"
+ doctrine_vampirefrenzy_ignorant_desc:0 "what could make someone lose such control?"
  doctrine_parameter_vampirefrenzy_illegal:0 "Characters with the [GetTrait('wight').GetName( GetPlayer )] [trait|E] are [criminals|E]"
  doctrine_parameter_vampirefrenzy_shunned:0 "Characters with the [GetTrait('wight').GetName( GetPlayer )] [trait|E] are [shunned|E]"
  doctrine_parameter_vampirefrenzy_accepted:0 "Characters with the [GetTrait('wight').GetName( GetPlayer )] [trait|E] are fully accepted"
+ doctrine_parameter_vampirefrenzy_ignorant:0 "Characters with the [GetTrait('wight').GetName( GetPlayer )] [trait|E] are suffering from an unknown malady."
 
  doctrine_vampirethinblood_name:0 "Thin-blood"
  doctrine_vampirethinblood_crime_name:0 "Criminal"
@@ -177,6 +186,9 @@
  doctrine_parameter_supehunting_illegal:0 "Characters with the [GetTrait('supehunter').GetName( GetPlayer )] [trait|E] are [criminals|E]"
  doctrine_parameter_supehunting_shunned:0 "Characters with the [GetTrait('supehunter').GetName( GetPlayer )] [trait|E] are [shunned|E]"
  doctrine_parameter_supehunting_accepted:0 "Characters with the [GetTrait('supehunter').GetName( GetPlayer )] [trait|E] are fully accepted" 
+ doctrine_supehunting_ignorant_name:0 "Ignorant"
+ doctrine_supehunting_ignorant_desc:0 "Ignorant of prohibition on witch-hunting."
+ doctrine_parameter_supehunting_ignorant:0 "Characters with the [GetTrait('supehunter').GetName( GetPlayer )] [trait|E] are unknown practice to this faith." 
  
  #Vampiric Tenets
  tenet_vampiremasquerade_name:0 "Masquerade"
@@ -278,6 +290,12 @@
  tenet_continued_life_name:0 "Continued Life"
  tenet_continued_life_desc:0 "Some undead try to continue their mortal lives as much as possible. While this helps them keep in touch with their old mortal life, it increases exposure of the Masquerade. Using mystical powers continually to appear alive will also increases hunger." 
  
+ tenet_vengeance_of_samiel_name:0 "Vengeance of Samiel"
+ tenet_vengeance_of_samiel_desc:0 "The greatest of Saulot's warrior line, the martyred founder Samiel is believed to have penned this text with his own hand. According to legend, Samiel received a visitation from Michael, commander of the Heavenly Hosts, while Saulot was away. The archangel directed the warrior king to scribe the Code and to include within it the proper rituals necessary for the strength and blooding of new warriors. Samiel was killed at the end of the Second Baali War, as were more than half of his followers."
+ 
+ tenet_devoted_to_michael_name:0 "Devoted to Michael"
+ tenet_devoted_to_michael_desc:0 "The Path of the Archangel was a Path of the Road of Heaven popular in Byzantium during the 13th century. It reveres the memory of the fallen Patriarch of Constantinople, Michael. The followers of the path are called Michaelites."  
+ 
  special_doctrine_three_pillars_kindred_name:0 "Three Pillars"
  special_doctrine_three_pillars_kindred_desc:0 "The basis of feudal society is the castle, the church and the town. Kindred society mirrors this with the Road of Kings, Road of Heaven and Road of Humanity engaged in mutual tolerance."
  doctrine_parameter_hostility_override_special_doctrine_three_pillars_kindred:0 "Other Kindred [faiths|E] that have the Three Pillars doctrine are considered [GetHostilityLevelName( FAITH_DOCTRINE_PARAMETER.GetIntValue )|V] instead of #V Hostile#!" 
@@ -303,7 +321,7 @@
  tenet_fellow_conviction_opinion:0 "Conviction Fellow"
  doctrine_parameter_conviction_opinion_active:0 ""
  conviction_opinion_active_opinion_name:0 "Conviction Fellow"
- sconviction_opinion_active_county_opinion_name:0 "Conviction Fellow County"
+ conviction_opinion_active_county_opinion_name:0 "Conviction Fellow County"
  doctrine_parameter_opinion_of_conviction_opinion_active:0 "[opinion|E] of others with Conviction: $VALUE|+=0$" 
  
  doctrine_nomarriage_name:0 "No Marriage"

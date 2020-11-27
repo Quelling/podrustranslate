@@ -1,7 +1,8 @@
-﻿l_russian:
- special_legacy_track_name:1 "Боги и Монстры"
- special_legacy_track_desc:0 "Некоторые из хорошо спрятанных секретов мира Каинитов"
- zmei_legacy_perk_name:0 "Змеи"
- zmei_legacy_perk_effect:0 "Ужасные создания огромной силы, Змеи служат только Бабе Яге ... и ее доверенному защитнику."
- ventrue_legacy_perk_name:0 "Правители Вентру"
- demons_legacy_perk_name:0 "Призыв Падших"
+﻿l_english:
+ special_legacy_track_name:1 "Gods and Monsters"
+ special_legacy_track_desc:0 "Some of the most well hidden secrets of the Cainite World"
+ zmei_legacy_perk_name:0 "Zmei"
+ zmei_legacy_perk_effect:0 "Fearsome creatures of immense power, the Zmei serve only Baba Yaga... and her trusted champion."
+ ventrue_legacy_perk_name:0 "Ventrue Rulership"
+ demons_legacy_perk_name:0 "Summoning the Fallen"
+

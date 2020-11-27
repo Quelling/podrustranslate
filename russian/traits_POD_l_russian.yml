@@ -1,4 +1,7 @@
-﻿l_russian:
+﻿l_english:
+
+ trait_unusual:0 "Unusual"
+ trait_unusual_desc:0 "There is something odd about this person."
 
  trait_vampire:0 "Vampire"
  trait_vampire_desc:0 "This character is one of the undead."
@@ -12,14 +15,20 @@
  trait_ghoul:0 "Ghoul"
  trait_ghoul_desc:0 "A mortal who has consumed vampire blood."
  
+ trait_szlachta:0 "Szlachta"
+ trait_szlachta_desc:0 "A mortal who has consumed vampire blood and then been transformed by the discipline of Vicissitude."
+ 
  trait_mortal:0 "Mortal"
  trait_mortal_desc:0 "An ordinary human being. Such short lives..."
  
  trait_werewolf:0 "Werewolf"
- trait_wereolf_desc:0 "A shapechanging supernatural creature. They call themselves 'Garou'."
+ trait_werewolf_desc:0 "A shapechanging supernatural creature. They call themselves 'Garou'."
  
  trait_mage:0 "Mage"
  trait_mage_desc:0 "Humans with awakened avatars that allow them to wield true magick and alter the fabric of reality."
+ 
+ trait_wraith:0 "Wraith"
+ trait_wraith_desc:0 "A dead soul dragged back to the mortal world by dark magics or an attachment to something they left behind."
  
  trait_wight:0 "Wight"
  trait_wight_desc:0 "A wight is a vampire who have lost the entirety of their morals. They are, for all intents and purposes, the Beast within themselves. A character who has fallen to Wassail can never be saved or again played."
@@ -174,23 +183,44 @@
  trait_animalism:0 "Animalism"
  trait_animalism_desc:0 "A discipline that brings the vampire closer to their animalistic nature. This not only allows them to communicate with and gain dominance over creatures of nature, but gives them influence over the Beast itself.\n\nAnimalism is particularly common among the clans that are most removed from humanity, though many of its powers specifically target the Beasts of mortals and Cainites."
  
+ trait_animalismadvanced:0 "Animalism Advanced"
+ trait_animalismadvanced_desc:0 "A discipline that brings the vampire closer to their animalistic nature. This not only allows them to communicate with and gain dominance over creatures of nature, but gives them influence over the Beast itself.\n\nAnimalism is particularly common among the clans that are most removed from humanity, though many of its powers specifically target the Beasts of mortals and Cainites."
+ 
  trait_auspex:0 "Auspex"
  trait_auspex_desc:0 "A supernatural [discipline|E] of a [GetTrait('vampire').GetName( GetNullCharacter )]. Represented as [focus|E] of a [game_concept_phlegmatic_lifestyle|E]. It gives increased powers of perception, represented as [perks|E]."
+ 
+ trait_auspexadvanced:0 "Auspex Advanced"
+ trait_auspexadvanced_desc:0 "A supernatural [discipline|E] of a [GetTrait('vampire').GetName( GetNullCharacter )]. Represented as [focus|E] of a [game_concept_phlegmatic_lifestyle|E]. It gives increased powers of perception, represented as [perks|E]."
  
  trait_celerity:0 "Celerity"
  trait_celerity_desc:0 "Celerity is a Discipline that grants vampires supernatural quickness and reflexes.\n\nFor some Cainites, the mortal world moves in slow motion. In times of stress, vampires with Celerity can move with amazing speed, becoming blurs of motion to anyone, mortal or immortal, who does not possess the Discipline."
  
+ trait_celerityadvanced:0 "Celerity Advanced"
+ trait_celerityadvanced_desc:0 "Celerity is a Discipline that grants vampires supernatural quickness and reflexes.\n\nFor some Cainites, the mortal world moves in slow motion. In times of stress, vampires with Celerity can move with amazing speed, becoming blurs of motion to anyone, mortal or immortal, who does not possess the Discipline." 
+ 
  trait_chimerstry:0 "Chimerstry"
  trait_chimerstry_desc:0 "Chimerstry is the trademark Discipline of the Ravnos that conjures illusions into existence. Such phantom images are as real as the Cainite's skill allows."
  
+ trait_chimerstryadvanced:0 "Chimerstry Advanced"
+ trait_chimerstryadvanced_desc:0 "Chimerstry is the trademark Discipline of the Ravnos that conjures illusions into existence. Such phantom images are as real as the Cainite's skill allows, and will even fool technological sensors."
+ 
  trait_daimoinon:0 "Daimoinon"
  trait_daimoinon_desc:0 "Daimonion is a diabolic Discipline practiced only by the Baali and the very worst vampire infernalists. Its power is that of the Devil himself, and through the use of Daimonion the Baali draw upon the forces of Hell and its demons to demoralize and cripple their enemies."
- 
+
+ trait_daimoinonadvanced:0 "Daimoinon Advanced" 
+ trait_daimoinonadvanced_desc:0 "Daimonion is a diabolic Discipline practiced only by the Baali and the very worst vampire infernalists. Its power is that of the Devil himself, and through the use of Daimonion the Baali draw upon the forces of Hell and its demons to demoralize and cripple their enemies."  
+
  trait_dementation:0 "Dementation"
  trait_dementation_desc:0 "Dementation is a Discipline widely known as the hallmark of the Malkavians.\n\n Dementation draws on the vampire's own insanity and uses it to achieve profound insights or inflict madness upon others. Such powers are one of the primary reasons the Malkavian clan is often considered both insightful and very dangerous."
  
+ trait_dementationadvanced:0 "Dementation Advanced"
+ trait_dementationadvanced_desc:0 "Dementation is a Discipline widely known as the hallmark of the Malkavians.\n\n Dementation draws on the vampire's own insanity and uses it to achieve profound insights or inflict madness upon others. Such powers are one of the primary reasons the Malkavian clan is often considered both insightful and very dangerous."
+ 
  trait_dominate:0 "Dominate"
  trait_dominate_desc:0 "Dominate is a Discipline that overwhelms another person's mind with the vampire's will, forcing victims to think or act according to the vampire's decree."
+ 
+ trait_dominateadvanced:0 "Dominate Advanced"
+ trait_dominateadvanced_desc:0 "Dominate is a Discipline that overwhelms another person's mind with the vampire's will, forcing victims to think or act according to the vampire's decree.\n\nDominate's aspect of the curse of vampirism is that it devalues the basics of true friendship or intimacy. Dominate also dulls the empathy of the user, and one must take care not to become accustomed to being surrounded by sycophants at all times."
  
  trait_fortitude:0 "Fortitude"
  trait_fortitude_desc:0 "Fortitude is a Discipline that grants Kindred unearthly toughness, even to the point of resisting fire and sunlight.\n\nFortitude can also give protection from the manipulation and control such as from the disciplines of Dominate and Presence."
@@ -198,137 +228,116 @@
  trait_flight:0 "Flight"
  trait_flight_desc:0 "Flight is a supernatural Discipline, unique to the Gargoyle bloodline, that allows these vampires to fly.\n\nToo heavy to fly by natural means, the stony Gargoyles must use this Discipline; other Cainites capable of flight (by transforming into a bat or mist using Protean, for example) do not need it and cannot learn it."
  
+ trait_flightadvanced:0 "Flight Advanced"
+ trait_flightadvanced_desc:0 "Flight is a supernatural Discipline, unique to the Gargoyle bloodline, that allows these vampires to fly.\n\nToo heavy to fly by natural means, the stony Gargoyles must use this Discipline; other Cainites capable of flight (by transforming into a bat or mist using Protean, for example) do not need it and cannot learn it."
+ 
  trait_melpominee:0 "Melpominee"
  trait_melpominee_desc:0 "The Melpominee Discipline appeared simultaneously with the Daughters of Cacophony and is intrinsically linked to that bloodline. It allows its possessors to use speech and song for a variety of supernatural effects."
+ 
+ trait_melpomineeadvanced:0 "Melpominee Advanced"
+ trait_melpomineeadvanced_desc:0 "The Melpominee Discipline appeared simultaneously with the Daughters of Cacophony and is intrinsically linked to that bloodline. It allows its possessors to use speech and song for a variety of supernatural effects.\n\nNamed for the Greek Muse of Tragedy, Melpominee is a unique discipline of the Daughters of Cacophony. It explores the power of the voice, shaking the very soul of those nearby and allowing the vampire to perform sonic feats otherwise impossible."
  
  trait_mytherceria:0 "Mytherceria"
  trait_mytherceria_desc:0 "Mytherceria is a Discipline that manifests in faerie-blooded vampires such as the Kiasyd and Maeghar. It grants the vampire mystical senses, the ability to steal knowledge, and other powers attributed to fae."
  
+ trait_mytherceriaadvanced:0 "Mytherceria Advanced"
+ trait_mytherceriaadvanced_desc:0 "Mytherceria is a Discipline that manifests in faerie-blooded vampires such as the Kiasyd and Maeghar. It grants the vampire mystical senses, the ability to steal knowledge, and other powers attributed to fae.\n\nA collection of powers attributed to the faeries and inclined toward the exposure of new knowledge, Mytherceria has driven many of its victims to babbling madness, or at least frustration."
+ 
  trait_necromancy:0 "Necromancy"
  trait_necromancy_desc:0 "Necromancy is a form of blood magic that deals exclusively with the world of the dead: wraiths and the Shadowlands. Just as there are different styles of conventional blood sorcery, there are a variety of Necromancy practices. It is primarily practiced by the Giovanni."
+ 
+ trait_necromancyadvanced:0 "Necromancy Advanced"
+ trait_necromancyadvanced_desc:0 "Necromancy is a form of blood magic that deals exclusively with the world of the dead: wraiths and the Shadowlands. Just as there are different styles of conventional blood sorcery, there are a variety of Necromancy practices. It is primarily practiced by the Giovanni." 
  
  trait_obeah:0 "Obeah"
  trait_obeah_desc:0 "Obeah is the unique Discipline of the Salubri, also known as the Valeren Path of the Healer.\n\nObeah originated with Saulot in his travels in the East learning from the Kuei-jin the use of the Dragon Pearl. Learning Obeah causes a third eye to develop in the middle of one's forehead."
  
+ trait_obeahadvanced:0 "Obeah Advanced"
+ trait_obeahadvanced_desc:0 "Obeah is the unique Discipline of the Salubri, also known as the Valeren Path of the Healer.\n\nObeah originated with Saulot in his travels in the East learning from the Kuei-jin the use of the Dragon Pearl. Learning Obeah causes a third eye to develop in the middle of one's forehead."
+ 
  trait_obfuscate:0 "Obfuscate"
  trait_obfuscate_desc:0 "Obfuscate is a Discipline that allows vampires to conceal themselves, deceive the mind of others, or make them ignore what the user does not want to be seen.\n\nObfuscate is part of Caine's curse on the Antediluvians in blotting them out from creation."
+ 
+ trait_obfuscateadvanced:0 "Obfuscate Advanced"
+ trait_obfuscateadvanced_desc:0 "Obfuscate is a Discipline that allows vampires to conceal themselves, deceive the mind of others, or make them ignore what the user does not want to be seen.\n\nObfuscate is part of Caine's curse on the Antediluvians in blotting them out from creation. Frequent users of the Discipline find themselves divorced from society, never participating in social interactions, only observing."
  
  trait_obtenebration:0 "Obtenebration"
  trait_obtenebration_desc:0 "Obtenebration is said to further damn the vampire who uses it, who removes himself further from God's grace and into the dark pull of the Abyss. For this reason, the user is shunned by animals and humans alike. The unnatural darkness summoned by Obtenebration is extremely frightening to mortals, animals, and even other Cainites unaccustomed to its use."
  
+ trait_obtenebrationadvanced:0 "Obtenebration Advanced"
+ trait_obtenebrationadvanced_desc:0 "Obtenebration is said to further damn the vampire who uses it, who removes himself further from God's grace and into the dark pull of the Abyss. For this reason, the user is shunned by animals and humans alike. The unnatural darkness summoned by Obtenebration is extremely frightening to mortals, animals, and even other Cainites unaccustomed to its use."
+ 
  trait_potence:0 "Potence"
  trait_potence_desc:0 "Potence is the Discipline that endows vampires with physical vigor and preternatural strength. Vampires with the Potence Discipline possess physical prowess beyond mortal bounds."
+
+ trait_potenceadvanced:0 "Potence Advanced"
+ trait_potenceadvanced_desc:0 "Potence is the Discipline that endows vampires with physical vigor and preternatural strength. Vampires with the Potence Discipline possess physical prowess beyond mortal bounds." 
  
  trait_presence:0 "Presence"
  trait_presence_desc:0 "Presence is the Discipline of supernatural allure and emotional manipulation which allows Kindred to attract, sway, and control crowds.\n\nPresence softened God's curse upon Cainites in that it makes the vampire become the center of attention. Either by fascinating, seducing, or intimidating those in close vicinity."
- 
+
+ trait_presenceadvanced:0 "Presence Advanced" 
+ trait_presenceadvanced_desc:0 "Presence is the Discipline of supernatural allure and emotional manipulation which allows Kindred to attract, sway, and control crowds.\n\nPresence softened God's curse upon Cainites in that it makes the vampire become the center of attention. Either be fascinating, seducing, or intimidating those in close vicinity." 
+
  trait_protean:0 "Protean"
  trait_protean_desc:0 "Protean is a Discipline that gives vampires the ability to change form, from growing feral claws to evaporating into a cloud of mist.\n\nProtean is part of God's curse upon Caine in the aspect that it peels away the facade of humanity every vampire has to uphold, revealing the Beast within his soul."
  
+ trait_proteanadvanced:0 "Protean Advanced"
+ trait_proteanadvanced_desc:0 "Protean is a Discipline that gives vampires the ability to change form, from growing feral claws to evaporating into a cloud of mist.\n\nProtean is part of God's curse upon Caine in the aspect that it peels away the facade of humanity every vampire has to uphold, revealing the Beast within his soul. Advanced users sometimes find their bodies shifting without their consent, reacting directly to their emotions, bringing them into embarrassing situations."
+ 
  trait_quietus:0 "Quietus"
  trait_quietus_desc:0 "Quietus is the signature Discipline of the Assamites that grants them influence over the blood of others.\n\nThough each of the Assamite castes possesses Quietus as an in-clan Discipline, it is primarily known for being an assassin's tool in the hands of the Warrior caste, and the lower level powers are largely geared towards that end."
+
+ trait_quietusadvanced:0 "Quietus Advanced"
+ trait_quietusadvanced_desc:0 "Quietus is the signature Discipline of the Assamites that grants them influence over the blood of others.\n\nThough each of the Assamite castes possesses Quietus as an in-clan Discipline, it is primarily known for being an assassin's tool in the hands of the Warrior caste, and the lower level powers are largely geared towards that end."
  
  trait_serpentis:0 "Serpentis"
  trait_serpentis_desc:0 "Serpentis is the trademark Discipline of the Followers of Set clan. It primarily provides shapechanging abilities, though it also encompasses corruption and other characteristics associated with snakes.\n\nSerpentis has a near religious significance to the Clan, although Kindred scientists presume a relation to the shape-shifting powers of Protean."
  
+ trait_serpentisadvanced:0 "Serpentis Advanced"
+ trait_serpentisadvanced_desc:0 "Serpentis is the trademark Discipline of the Followers of Set clan. It primarily provides shapechanging abilities, though it also encompasses corruption and other characteristics associated with snakes.\n\nSerpentis has a near religious significance to the Clan, although Kindred scientists presume a relation to the shape-shifting powers of Protean."
+ 
  trait_spiritus:0 "Spiritus"
  trait_spiritus_desc:0 "Spiritus is a Discipline unique to the Ahrimanes bloodline that allows them to interact with animalistic spirits. At its most basic levels it allows the vampire to speak with and summon spirits, but at higher levels power can be channeled from them to strengthen the Ahrimane."
+
+ trait_spiritusadvanced:0 "Spiritus Advanced"
+ trait_spiritusadvanced_desc:0 "Spiritus is a Discipline unique to the Ahrimanes bloodline that allows them to interact with animalistic spirits. At its most basic levels it allows the vampire to speak with and summon spirits, but at higher levels power can be channeled from them to strengthen the Ahrimane."
  
  trait_temporis:0 "Temporis"
  trait_temporis_desc:0 "Temporis is a Discipline unique to the True Brujah. Supposedly a refinement of Celerity, Temporis grants the Cainite the ability to manipulate the flow of time itself."
+
+ trait_temporisadvanced:0 "Temporis Advanced"
+ trait_temporisadvanced_desc:0 "Temporis is a Discipline unique to the True Brujah. Supposedly a refinement of Celerity, Temporis grants the Cainite the ability to manipulate the flow of time itself.\n\nWhile powerful, this Discipline can also be straining to use."
  
  trait_thinbloodalchemy:0 "Thin Blood Alchemy"
  trait_thinbloodalchemy_desc:0 "Exclusive discipline for the Thin-Bloods, it allows them to mimic the powers of full blooded vampire disciplines.\n\nThin-Blood Alchemy is a two step practice: distillation of a blood concoction using the proper formula, then activation of said brew by drinking it and channeling its power."
- 
+
+ trait_thinbloodalchemyadvanced:0 "Thin-blood Alchemy Advanced"
+ trait_thinbloodalchemyadvanced_desc:0 "Exclusive discipline for the Thin-Bloods, it allows them to mimic the powers of full blooded vampire disciplines.\n\nThin-Blood Alchemy is a two step practice: distillation of a blood concoction using the proper formula, then activation of said brew by drinking it and channeling its power."
+
  trait_valeren:0 "Valeren"
  trait_valeren_desc:0 "Valeren is the mystical Discipline of the Salubri. At its most basic, Valeren provides control over pain and increased martial ability, seemingly allowing warriors to draw on the power of heaven to vanquish their foes."
- 
+
+ trait_valerenadvanced:0 "Valeren Advanced" 
+ trait_valerenadvanced_desc:0 "Valeren is the mystical Discipline of the Salubri. At its most basic, Valeren provides control over pain and increased martial ability, seemingly allowing warriors to draw on the power of heaven to vanquish their foes." 
+
  trait_vicissitude:0 "Vicissitude"
  trait_vicissitude_desc:0 "One of the most horrifying powers available to Cainites, Vicissitude is the signature power of the Tzimisce and is almost unknown outside of the clan. With it an experienced crafter can sculpt the flesh and bone of a subject, making them a creature of alien beauty or gnarling them into a deformed monstrosity."
  
+ trait_vicissitudeadvanced:0 "Vicissitude Advanced" 
+ trait_vicissitudeadvanced_desc:0 "One of the most horrifying powers available to Cainites, Vicissitude is the signature power of the Tzimisce and is almost unknown outside of the clan. With it an experienced crafter can sculpt the flesh and bone of a subject, making them a creature of alien beauty or gnarling them into a deformed monstrosity." 
+ 
  trait_visceratika:0 "Visceratika"
  trait_visceratika_desc:0 "The Discipline of Visceratika is the exclusive possession of the Gargoyle bloodline and is an extension of their natural affinity for stone, earth, and things made thereof.\n\nVisceratika features shapeshifting abilities similar to those of Protean, though with a greater emphasis on defense."
- 
+
+ trait_visceratikaadvanced:0 "Visceratika Advanced"
+ trait_visceratikaadvanced_desc:0 "The Discipline of Visceratika is the exclusive possession of the Gargoyle bloodline and is an extension of their natural affinity for stone, earth, and things made thereof.\n\nVisceratika features shapeshifting abilities similar to those of Protean, though with a greater emphasis on defense."
+
  trait_bloodsorcery:0 "Blood Sorcery"
  trait_bloodsorcery_desc:0 "Blood Sorcery refers to the magic performed by vampires, fueled by religious or occult practices and the power of Cainite vitae.\n\nThrough the practice of blood magic, a Cainite can summon fire, control the weather, and do many other things which are unnatural even by vampiric standards."
  
  trait_bloodsorceryadvanced:0 "Blood Sorcery Advanced"
  trait_bloodsorceryadvanced_desc:0 "Blood Sorcery refers to the magic performed by vampires, fueled by religious or occult practices and the power of Cainite vitae.\n\nThrough the practice of blood magic, a Cainite can summon fire, control the weather, and do many other things which are unnatural even by vampiric standards." 
- 
- trait_animalismadvanced:0 "Animalism Advanced"
- trait_animalismadvanced_desc:0 "A discipline that brings the vampire closer to their animalistic nature. This not only allows them to communicate with and gain dominance over creatures of nature, but gives them influence over the Beast itself.\n\nAnimalism is particularly common among the clans that are most removed from humanity, though many of its powers specifically target the Beasts of mortals and Cainites."
- 
- trait_auspexadvanced:0 "Auspex Advanced"
- trait_auspexadvanced_desc:0 "A supernatural [discipline|E] of a [GetTrait('vampire').GetName( GetNullCharacter )]. Represented as [focus|E] of a [game_concept_phlegmatic_lifestyle|E]. It gives increased powers of perception, represented as [perks|E]."
- 
- trait_celerityadvanced:0 "Celerity Advanced"
- trait_celerityadvanced_desc:0 "Celerity is a Discipline that grants vampires supernatural quickness and reflexes.\n\nFor some Cainites, the mortal world moves in slow motion. In times of stress, vampires with Celerity can move with amazing speed, becoming blurs of motion to anyone, mortal or immortal, who does not possess the Discipline." 
- 
- trait_chimerstryadvanced:0 "Chimerstry Advanced"
- trait_chimerstryadvanced_desc:0 "Chimerstry is the trademark Discipline of the Ravnos that conjures illusions into existence. Such phantom images are as real as the Cainite's skill allows, and will even fool technological sensors."
- 
- trait_dementationadvanced:0 "Dementation Advanced"
- trait_dementationadvanced_desc:0 "Dementation is a Discipline widely known as the hallmark of the Malkavians.\n\n Dementation draws on the vampire's own insanity and uses it to achieve profound insights or inflict madness upon others. Such powers are one of the primary reasons the Malkavian clan is often considered both insightful and very dangerous."
- 
- trait_dominateadvanced:0 "Dominate Advanced"
- trait_dominateadvanced_desc:0 "Dominate is a Discipline that overwhelms another person's mind with the vampire's will, forcing victims to think or act according to the vampire's decree.\n\nDominate's aspect of the curse of vampirism is that it devalues the basics of true friendship or intimacy. Dominate also dulls the empathy of the user, and one must take care not to become accustomed to being surrounded by sycophants at all times."
- 
- trait_flightadvanced:0 "Flight Advanced"
- trait_flightadvanced_desc:0 "Flight is a supernatural Discipline, unique to the Gargoyle bloodline, that allows these vampires to fly.\n\nToo heavy to fly by natural means, the stony Gargoyles must use this Discipline; other Cainites capable of flight (by transforming into a bat or mist using Protean, for example) do not need it and cannot learn it."
- 
- trait_melpomineeadvanced:0 "Melpominee Advanced"
- trait_melpomineeadvanced_desc:0 "The Melpominee Discipline appeared simultaneously with the Daughters of Cacophony and is intrinsically linked to that bloodline. It allows its possessors to use speech and song for a variety of supernatural effects.\n\nNamed for the Greek Muse of Tragedy, Melpominee is a unique discipline of the Daughters of Cacophony. It explores the power of the voice, shaking the very soul of those nearby and allowing the vampire to perform sonic feats otherwise impossible."
- 
- trait_mytherceriaadvanced:0 "Mytherceria Advanced"
- trait_mytherceriaadvanced_desc:0 "Mytherceria is a Discipline that manifests in faerie-blooded vampires such as the Kiasyd and Maeghar. It grants the vampire mystical senses, the ability to steal knowledge, and other powers attributed to fae.\n\nA collection of powers attributed to the faeries and inclined toward the exposure of new knowledge, Mytherceria has driven many of its victims to babbling madness, or at least frustration."
-
- trait_necromancyadvanced:0 "Necromancy Advanced"
- trait_necromancyadvanced_desc:0 "Necromancy is a form of blood magic that deals exclusively with the world of the dead: wraiths and the Shadowlands. Just as there are different styles of conventional blood sorcery, there are a variety of Necromancy practices. It is primarily practiced by the Giovanni." 
-
- trait_obeahadvanced:0 "Obeah Advanced"
- trait_obeahadvanced_desc:0 "Obeah is the unique Discipline of the Salubri, also known as the Valeren Path of the Healer.\n\nObeah originated with Saulot in his travels in the East learning from the Kuei-jin the use of the Dragon Pearl. Learning Obeah causes a third eye to develop in the middle of one's forehead."
-
- trait_obfuscateadvanced:0 "Obfuscate Advanced"
- trait_obfuscateadvanced_desc:0 "Obfuscate is a Discipline that allows vampires to conceal themselves, deceive the mind of others, or make them ignore what the user does not want to be seen.\n\nObfuscate is part of Caine's curse on the Antediluvians in blotting them out from creation. Frequent users of the Discipline find themselves divorced from society, never participating in social interactions, only observing."
-
- trait_obtenebrationadvanced:0 "Obtenebration Advanced"
- trait_obtenebrationadvanced_desc:0 "Obtenebration is said to further damn the vampire who uses it, who removes himself further from God's grace and into the dark pull of the Abyss. For this reason, the user is shunned by animals and humans alike. The unnatural darkness summoned by Obtenebration is extremely frightening to mortals, animals, and even other Cainites unaccustomed to its use."
-
- trait_potenceadvanced:0 "Potence Advanced"
- trait_potenceadvanced_desc:0 "Potence is the Discipline that endows vampires with physical vigor and preternatural strength. Vampires with the Potence Discipline possess physical prowess beyond mortal bounds."
-
- trait_presenceadvanced:0 "Presence Advanced" 
- trait_presenceadvanced_desc:0 "Presence is the Discipline of supernatural allure and emotional manipulation which allows Kindred to attract, sway, and control crowds.\n\nPresence softened God's curse upon Cainites in that it makes the vampire become the center of attention. Either be fascinating, seducing, or intimidating those in close vicinity." 
- 
- trait_proteanadvanced:0 "Protean Advanced"
- trait_proteanadvanced_desc:0 "Protean is a Discipline that gives vampires the ability to change form, from growing feral claws to evaporating into a cloud of mist.\n\nProtean is part of God's curse upon Caine in the aspect that it peels away the facade of humanity every vampire has to uphold, revealing the Beast within his soul. Advanced users sometimes find their bodies shifting without their consent, reacting directly to their emotions, bringing them into embarrassing situations."
-
- trait_quietusadvanced:0 "Quietus Advanced"
- trait_quietusadvanced_desc:0 "Quietus is the signature Discipline of the Assamites that grants them influence over the blood of others.\n\nThough each of the Assamite castes possesses Quietus as an in-clan Discipline, it is primarily known for being an assassin's tool in the hands of the Warrior caste, and the lower level powers are largely geared towards that end."
-
- trait_serpentisadvanced:0 "Serpentis Advanced"
- trait_serpentisadvanced_desc:0 "Serpentis is the trademark Discipline of the Followers of Set clan. It primarily provides shapechanging abilities, though it also encompasses corruption and other characteristics associated with snakes.\n\nSerpentis has a near religious significance to the Clan, although Kindred scientists presume a relation to the shape-shifting powers of Protean."
-
- trait_spiritusadvanced:0 "Spiritus Advanced"
- trait_spiritusadvanced_desc:0 "Spiritus is a Discipline unique to the Ahrimanes bloodline that allows them to interact with animalistic spirits. At its most basic levels it allows the vampire to speak with and summon spirits, but at higher levels power can be channeled from them to strengthen the Ahrimane."
-
- trait_temporisadvanced:0 "Temporis Advanced"
- trait_temporisadvanced_desc:0 "Temporis is a Discipline unique to the True Brujah. Supposedly a refinement of Celerity, Temporis grants the Cainite the ability to manipulate the flow of time itself.\n\nWhile powerful, this Discipline can also be straining to use."
-
- trait_thinbloodalchemyadvanced:0 "Thin-blood Alchemy Advanced"
- trait_thinbloodalchemyadvanced_desc:0 "Exclusive discipline for the Thin-Bloods, it allows them to mimic the powers of full blooded vampire disciplines.\n\nThin-Blood Alchemy is a two step practice: distillation of a blood concoction using the proper formula, then activation of said brew by drinking it and channeling its power."
-
- trait_valerenadvanced:0 "Valeren Advanced" 
- trait_valerenadvanced_desc:0 "Valeren is the mystical Discipline of the Salubri. At its most basic, Valeren provides control over pain and increased martial ability, seemingly allowing warriors to draw on the power of heaven to vanquish their foes." 
-
- trait_vicissitudeadvanced:0 "Vicissitude Advanced" 
- trait_vicissitudeadvanced_desc:0 "One of the most horrifying powers available to Cainites, Vicissitude is the signature power of the Tzimisce and is almost unknown outside of the clan. With it an experienced crafter can sculpt the flesh and bone of a subject, making them a creature of alien beauty or gnarling them into a deformed monstrosity." 
-
- trait_visceratikaadvanced:0 "Visceratika Advanced"
- trait_visceratikaadvanced_desc:0 "The Discipline of Visceratika is the exclusive possession of the Gargoyle bloodline and is an extension of their natural affinity for stone, earth, and things made thereof.\n\nVisceratika features shapeshifting abilities similar to those of Protean, though with a greater emphasis on defense."
-
- trait_bloodsorceryadvanced:0 "Blood Sorcery Advanced"
- trait_bloodsorceryadvanced_desc:0 "Blood Sorcery refers to the magic performed by vampires, fueled by religious or occult practices and the power of Cainite vitae.\n\nThrough the practice of blood magic, a Cainite can summon fire, control the weather, and do many other things which are unnatural even by vampiric standards."
 
  trait_fortitudeadvanced:0 "Fortitude Advanced"
  trait_fortitudeadvanced_desc:0 "Fortitude is a Discipline that grants Kindred unearthly toughness, even to the point of resisting fire and sunlight.\n\nFortitude grants the Cainite the ability to resist all kinds of damage, however it fulfills its part of God's curse in that it bred arrogance and overconfidence."
@@ -341,89 +350,92 @@
 
  trait_mortis:0 "Mortis"
  trait_mortis_desc:0 "The Discipline Mortis is rooted in the control and manipulation of death. More specifically, Mortis is a form of blood magic dealing with corpses and their conditions after death. The Cappadocian clan are the only Kindred to possess the natural affinities for this Discipline."
+ 
  trait_mortisadvanced:0 "Mortis Advanced" 
  trait_mortisadvanced_desc:0 "The Discipline Mortis is rooted in the control and manipulation of death. More specifically, Mortis is a form of blood magic dealing with corpses and their conditions after death. The Cappadocian clan are the only Kindred to possess the natural affinities for this Discipline."
 
  trait_nihilistics:0 "Nihilistics"
  trait_nihilistics_desc:0 "Nihilistics is a Discipline unique to the Nagaraja that allows them to penetrate the Shroud and channel Oblivion. While some of its uses relate to the denizens of the Underworld, many of its powers allow the vampire to draw Oblivion into the physical world."
+ 
  trait_nihilisticsadvanced:0 "Nihlistics Advanced" 
  trait_nihilisticsadvanced_desc:0 "Nihilistics is a Discipline unique to the Nagaraja that allows them to penetrate the Shroud and channel Oblivion. While some of its uses relate to the denizens of the Underworld, many of its powers allow the vampire to draw Oblivion into the physical world."
 
  trait_thanatosis:0 "Thanatosis"
  trait_thanatosis_desc:0 "Thanatosis is the exclusive Discipline of the Samedi bloodline that involves manipulating effects of death and decomposition. In some ways it is similar to Necromancy. The Discipline deals with the appearance of death in all its forms. The practitioners are obsessed with the appearance of death, finding themselves shunned by all but the most twisted of Kindred."
+ 
  trait_thanatosisadvanced:0 "Thanatosis Advanced" 
  trait_thanatosisadvanced_desc:0 "Thanatosis is the exclusive Discipline of the Samedi bloodline that involves manipulating effects of death and decomposition. In some ways it is similar to Necromancy. The Discipline deals with the appearance of death in all its forms. The practitioners are obsessed with the appearance of death, finding themselves shunned by all but the most twisted of Kindred."
 
  trait_deimos:0 "Deimos"
  trait_deimos_desc:0 "Deimos is a Discipline created by the Lamia in their research of the dead and of Lilith. It provides vampires with some control over their own lifeless forms as well as dark spirits and the auspices of the Dark Mother. It is also known as the Path of the Four Humours."
+ 
  trait_deimosadvanced:0 "Deimos Advanced" 
  trait_deimosadvanced_desc:0 "Deimos is a Discipline created by the Lamia in their research of the dead and of Lilith. It provides vampires with some control over their own lifeless forms as well as dark spirits and the auspices of the Dark Mother. It is also known as the Path of the Four Humours."
 
  trait_abombo:0 "Abombo"
  trait_abombo_desc:0 "A path practised by the Laibon of Africa, focussing on the connection between the dead and the living; similar to but distinct from the Cenotaph Path of Necromancy. It allows the necromancer control and even reassignment of a wraith's fetter."
+ 
  trait_abomboadvanced:0 "Abombo Advanced" 
  trait_abomboadvanced_desc:0 "A path practised by the Laibon of Africa, focussing on the connection between the dead and the living; similar to but distinct from the Cenotaph Path of Necromancy. It allows the necromancer control and even reassignment of a wraith's fetter."
 
  trait_abombwe:0 "Abombwe"
  trait_abombwe_desc:0 "Abombwe is a Discipline practised by the Akunanse Legacy of the Laibon and the mysterious Bonsam bloodline of the Dark Ages."
- trait_abombweadvanced:0 "Abombwe"
- trait_abombweadvanced_desc:0 "Abombwe is a Discipline practised by the Akunanse Legacy of the Laibon and the mysterious Bonsam bloodline of the Dark Ages. Abombwe utilizes the vampire's close connection to and control over their own Beasts (and that of others), as well as channel the Beast's power for various purposes." 
  
- trait_daimoinonadvanced:0 "Daimoinon Advanced" 
- trait_daimoinonadvanced_desc:0 "Daimonion is a diabolic Discipline practiced only by the Baali and the very worst vampire infernalists. Its power is that of the Devil himself, and through the use of Daimonion the Baali draw upon the forces of Hell and its demons to demoralize and cripple their enemies."  
+ trait_abombweadvanced:0 "Abombwe Advanced"
+ trait_abombweadvanced_desc:0 "Abombwe is a Discipline practised by the Akunanse Legacy of the Laibon and the mysterious Bonsam bloodline of the Dark Ages. Abombwe utilizes the vampire's close connection to and control over their own Beasts (and that of others), as well as channel the Beast's power for various purposes." 
  
  trait_sielanicthaumaturgy:0 "Sielanic Thaumaturgy"
  trait_sielanicthaumaturgy_desc:0 "Sielanic Thaumaturgy is a form of Thaumaturgy inspired by the pagan god Telyavel and practiced by the Telyavelic Tremere, a bloodline of the Tremere native to Lithuania.\n\nThe Telvays learned to utilize the power of siela, the animistic spirit latent in the earth, stone, plants, and animals of their adopted homeland."
  
- trait_sielanicthaumaturgyadvanced:0 "Sielanic Thaumaturgy"
+ trait_sielanicthaumaturgyadvanced:0 "Sielanic Thaumaturgy Advanced"
  trait_sielanicthaumaturgyadvanced_desc:0 "Sielanic Thaumaturgy is a form of Thaumaturgy inspired by the pagan god Telyavel and practiced by the Telyavelic Tremere, a bloodline of the Tremere native to Lithuania.\n\nThe Telvays learned to utilize the power of siela, the animistic spirit latent in the earth, stone, plants, and animals of their adopted homeland." 
  
  trait_duranki:0 "Dur-An-Ki"
  trait_duranki_desc:0 "Dur-An-Ki (Master of Heaven and Earth) is a form of blood magic practiced by Kindred of the Middle East and Africa. It is a very old form of magic, drawing from a huge variety of mortal religious traditions, and pre-dating Thaumaturgy, which it resembles in many ways."
  
- trait_durankiadvanced:0 "Dur-An-Ki"
+ trait_durankiadvanced:0 "Dur-An-Ki Advanced"
  trait_durankiadvanced_desc:0 "Dur-An-Ki (Master of Heaven and Earth) is a form of blood magic practiced by Kindred of the Middle East and Africa. It is a very old form of magic, drawing from a huge variety of mortal religious traditions, and pre-dating Thaumaturgy, which it resembles in many ways."
  
  trait_ogham:0 "Ogham"
  trait_ogham_desc:0 "Ogham is a very limited form of Blood Magic based on Celtic runes practiced by the Lhiannan that taps into the spirit shard of the bloodline, conceding power within their territory."
  
- trait_oghamadvanced:0 "Ogham"
+ trait_oghamadvanced:0 "Ogham Advanced"
  trait_oghamadvanced_desc:0 "Ogham is a very limited form of Blood Magic based on Celtic runes practiced by the Lhiannan that taps into the spirit shard of the bloodline, conceding power within their territory." 
  
- trait_koldunicorcery:0 "Koldunic Sorcery"
- trait_koldunicorcery_desc:0 "Koldunic Sorcery or Koldunism is a form of Cainite blood magic practiced by the Tzimisce.\n\nKoldunic Sorcery is similar to Thaumaturgy in idea but very different in practice."
+ trait_koldunicsorcery:0 "Koldunic Sorcery"
+ trait_koldunicsorcery_desc:0 "Koldunic Sorcery or Koldunism is a form of Cainite blood magic practiced by the Tzimisce.\n\nKoldunic Sorcery is similar to Thaumaturgy in idea but very different in practice."
  
- trait_koldunicorceryadvanced:0 "Koldunic Sorcery"
- trait_koldunicorceryadvanced_desc:0 "Koldunic Sorcery or Koldunism is a form of Cainite blood magic practiced by the Tzimisce.\n\nKoldunic Sorcery is similar to Thaumaturgy in idea but very different in practice."
+ trait_koldunicsorceryadvanced:0 "Koldunic Sorcery Advanced"
+ trait_koldunicsorceryadvanced_desc:0 "Koldunic Sorcery or Koldunism is a form of Cainite blood magic practiced by the Tzimisce.\n\nKoldunic Sorcery is similar to Thaumaturgy in idea but very different in practice."
  
  trait_abyssmysticism:0 "Abyss Mysticism"
  trait_abyssmysticism_desc:0 "Abyss Mysticism is a form of Blood Sorcery, derived from the Discipline Obtenebration. Obviously, this arcane art is practiced almost exclusively by members of clan Lasombra. Those who practice these mystic arts are called The Shadowed."
  
- trait_abyssmysticismadvanced:0 "Abyss Mysticism"
+ trait_abyssmysticismadvanced:0 "Abyss Mysticism Advanced"
  trait_abyssmysticismadvanced_desc:0 "Abyss Mysticism is a form of Blood Sorcery, derived from the Discipline Obtenebration. Obviously, this arcane art is practiced almost exclusively by members of clan Lasombra. Those who practice these mystic arts are called The Shadowed."
  
  trait_sadhana:0 "Sadhana"
  trait_sadhana_desc:0 "Sadhana is a form of Hindu blood sorcery which predates the prominent Hermetic Thaumaturgy of the Tremere clan by thousands of years. It is practiced by the Hindu Brahmin Cainites of India, who are known as rakta-sadhus or even Blood Brahmin."
  
- trait_sadhanaadvanced:0 "Sadhana"
+ trait_sadhanaadvanced:0 "Sadhana Advanced"
  trait_sadhanaadvanced_desc:0 "Sadhana is a form of Hindu blood sorcery which predates the prominent Hermetic Thaumaturgy of the Tremere clan by thousands of years. It is practiced by the Hindu Brahmin Cainites of India, who are known as rakta-sadhus or even Blood Brahmin."
  
  trait_sihr:0 "Sihr"
  trait_sihr_desc:0 "Sihr (meaning 'spell' in Arabic) is a Discipline of blood magic practiced widely in the Islamic world. In the Dark Ages, its difference with other forms of blood magic was that its user needed to have a high Road rating in the Path of Community or Road of Heaven to perform the magic."
  
- trait_sihradvanced:0 "Sihr"
+ trait_sihradvanced:0 "Sihr Advanced"
  trait_sihradvanced_desc:0 "Sihr (meaning 'spell' in Arabic) is a Discipline of blood magic practiced widely in the Islamic world. In the Dark Ages, its difference with other forms of blood magic was that its user needed to have a high Road rating in the Path of Community or Road of Heaven to perform the magic." 
  
  trait_akhu:0 "Akhu"
  trait_akhu_desc:0 "Akhu, often called Setite Sorcery by outsiders, is the ancient magical tradition of the Followers of Set.\n\nIn Egypt's heyday, before its conversion to Christianity at the hands of the Roman Empire, magic was commonplace, practised by mortal and vampire alike."
  
- trait_akhuadvanced:0 "Akhu"
+ trait_akhuadvanced:0 "Akhu Advanced"
  trait_akhuadvanced_desc:0 "Akhu, often called Setite Sorcery by outsiders, is the ancient magical tradition of the Followers of Set.\n\nIn Egypt's heyday, before its conversion to Christianity at the hands of the Roman Empire, magic was commonplace, practised by mortal and vampire alike." 
  
  trait_darkthaumaturgy:0 "Dark Thaumaturgy"
  trait_darkthaumaturgy_desc:0 "Dark Thaumaturgy is the name given to Thaumaturgy learned from demons.\n\nVampires may make pacts with demons in order to learn the secrets of blood sorcery, just as mortal mages do to learn other infernal magics; they do so at the cost of whatever soul they have left, sealing a bargain which is a quick route to magical power."
  
- trait_darkthaumaturgyadvanced:0 "Dark Thaumaturgy"
+ trait_darkthaumaturgyadvanced:0 "Dark Thaumaturgy Advanced"
  trait_darkthaumaturgyadvanced_desc:0 "Dark Thaumaturgy is the name given to Thaumaturgy learned from demons.\n\nVampires may make pacts with demons in order to learn the secrets of blood sorcery, just as mortal mages do to learn other infernal magics; they do so at the cost of whatever soul they have left, sealing a bargain which is a quick route to magical power."
  
  trait_thaumaturgy:0 "Thaumaturgy"
@@ -501,6 +513,9 @@
  trait_revenant:0 "Revenant"
  trait_revenant_desc:0 "An independent ghoul born with vampire blood in their veins."
 
+ trait_zadruga:0 "Zadruga"
+ trait_zadruga_desc:0 "A Tzimisce term for hereditary ghouls. Of all the clans, the Tzimisce have bred the most ghoul families."
+
  trait_oathbreaker:0 "Oathbreaker"
  trait_oathbreaker_desc:0 "This character broke an oath."
  
@@ -542,4 +557,18 @@
 
  trait_patron:0 "Patron"
  trait_patron_desc:0 "A notable person invested in the World of Darkness"
+ 
+ trait_harbringersofskulls:0 "Harbringers of Skulls"
+ trait_harbringersofskulls_desc:0 ""
+ 
+ trait_raktasadhus_ashirra:0 ""
+ trait_raktasadhus_ashirra_desc:0 ""
+ 
+ trait_kinfolk:0 "Kinfolk"
+ trait_kinfolk_desc:0 "Wolf-blooded, a descendant of the Garou."
+ 
+ trait_truefaith:0 "True Faith"
+ trait_truefaith_desc:0 "This character truly believe in the presence of the Divine. This is a core part of his soul, and gives him access to abilities some may call unnatural."
 
+ trait_beatific:0 "Beatific"
+ trait_beatific_desc:0 "A walking embodiment of his chosen God, this character is a miracle worker, a true paragon of faith in a world of darkness. It gives him access to abilities some may call unnatural."

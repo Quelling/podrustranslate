@@ -1,11 +1,11 @@
-﻿l_russian:
+﻿l_english:
 
- POD_embrace.100.t:0 "Объятие"
- POD_embrace.100.desc:0 "Пора встретиться с [scheme.GetTarget.GetFirstName] - наконец-то, он попадёт в мои лапы. В укромном месте, [victim.GetSheHe] не сможет никуда сбежать. Должен ли я подарить [victim.GetHerHis] бессмертие, даже если это означает проклятие? Будет ли [victim.GetSheHe] благодарить меня, или [victim.GetSheHe] же вечно винить? Интересно, такие мысли посещали моего сира?"
- POD_embrace.100.option.a:0 "Подарить объятие [scheme.GetTarget.GetFirstName]"
- POD_embrace.100.option.a.tt:0 "Вы убиваете [scheme.GetTarget.GetFirstName] и превращаете [victim.GetHerHim] в вампира. Это будет вам стоить набожности, усилит голод и подвергнет риску маскарад."  
- POD_embrace.100.option.a.tt.beast:0 "#R Да! Высушить их, после, дать каплю крови. Мы всегда может забрать всё обратно!#" 
- POD_embrace.100.option.b:0 "Опустить [victim.GetHerHim]."
- POD_embrace.100.option.b.tt.beast:0 "#R Нет! Не дайте [victim.GetHerHim] уйти! Я слишком долго этого ждал! Мы так долго этого ждали...#" 
+ POD_embrace.100.t:0 "The Embrace"
+ POD_embrace.100.desc:0 "I have orchestrated events so that [scheme.GetTarget.GetFirstName] has fallen within my clutches. In a secluded place, [victim.GetSheHe] will not be able to escape. Shall I grant immortality even if it means [victim.GetHerHis] damnation? Will [victim.GetSheHe] be grateful, or will [victim.GetSheHe] resent me forever? Did my sire have these thoughts?"
+ POD_embrace.100.option.a:0 "Embrace [scheme.GetTarget.GetFirstName]"
+ POD_embrace.100.option.a.tt:0 "You will kill [scheme.GetTarget.GetFirstName] and then transform [victim.GetHerHim] into a vampire. This will cost you piety, may increase your hunger and may risk exposing the masquerade."  
+ POD_embrace.100.option.a.tt.beast:0 "#R Yes! Drain them dry and then give them a single drop of our blood. We can always take it all back!#" 
+ POD_embrace.100.option.b:0 "Let [victim.GetHerHim] go."
+ POD_embrace.100.option.b.tt.beast:0 "#R No! Do not let [victim.GetHerHim] get away! I have waited too long for this! We have waited to long for this.#" 
  
 
